@@ -28,6 +28,7 @@ console.log("uma">="umamina");
 
 
 /** comparision with string and a number */
-console.log("2"> 1);
+console.log("2"> 1);      // here the string is converted into a number and then comapre both the numbers to give the result
 
 console.log("01"==1);
+
