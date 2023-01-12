@@ -6,7 +6,7 @@
 const readlineSync=require("readline-sync");
 
 const number=Number( readlineSync.question ("Enter a number"));
-
+ 
 if(number>0)
 {
     console.log("Positive");
