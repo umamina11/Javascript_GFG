@@ -25,6 +25,6 @@ else{
 }
 
 /** using the ternary operators */
-const result = marks_scored < 40 ? " bad " : marks_scored < 60 ? " better " : marks_scored < 75 ? " good " : 
-marks_scored < 85 ? " very good " : marks_scored < 95 ? " excellent " : "genius";
+const result = marks_obtained < 40 ? " bad " : marks_obtained < 60 ? " better " : marks_obtained < 75 ? " good " : 
+marks_obtained < 85 ? " very good " : marks_obtained < 95 ? " excellent " : "genius";
 console.log(result);
