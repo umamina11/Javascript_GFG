@@ -1,7 +1,7 @@
 /** logial operators: constional statement 
- * 1. OR= ||
+ * 1. OR= ||  here any of the one condition is true and meets the condtion then it will process to the result otherwise it will move the nested value  
  * 2. AND= &&  here all conditions need to be true then it will give the nested message and action otherwise it will move to check other condition 
- * 3. NOT= !
+ * 3. NOT= !  it reverse the bollean value and any condition given 
  * 4. NULLISH COALESCING= ??
  * 
  */
@@ -21,7 +21,7 @@ if( phy>85 && math> 85 && chem > 85){
 console.log("Student is not eligible");
 
 
-/**marks above 40 in all subjects (english , maths, science, hindi, social science) then 
+/**marks above 40 in any subjects (english , maths, science, hindi, social science) then 
  * the student will get promoted to the next class else not
  * write this code using the OR operator
  * 
@@ -36,3 +36,17 @@ const soc= 20;
  }else{
 console.log(" sorry try next time work hard to make it  ")
  }
+
+
+ /***
+  * NOT operator 
+  * 
+  */
+
+ const isStudentClear= false;
+ if(!isStudentClear){
+    console.log("Student is clear");
+ }else
+ console.log("Student is not clear");
+
+
