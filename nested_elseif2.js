@@ -1,8 +1,8 @@
 
-//combining the  two conditions in the in the two condtinal statement 
+//combining the  two conditions in the in the two conditional statement 
 // for combining the condtions there are certain operator that need to be used
-// first one is " &&" which is used whhen the given two conditions are true
-// second operator is "||" called as or where wither one condtion need to be true
+// first one is " &&" which is used when the given two conditions are true
+// second operator is "||" called as or where wether one condtion need to be true
 
 const readlineSync=require("readline-sync");
 
