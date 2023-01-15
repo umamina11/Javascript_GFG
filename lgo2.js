@@ -37,4 +37,4 @@ const username=fname && sname;
 console.log(`Name:${username}`); // here the output will give the sname beacuse the AND operator first look for the falsy value
                                 // irrespective truly values present or not it will always look for falsy value and get that at console
                                 
-// we always use the OR operatopr for the short circuting rather than 
+// we always use the OR operatopr for the short circuting rather than AND operator 
