@@ -13,4 +13,11 @@ for(let i=0;i<10;i++){
     console.log("hello world..");
 }
 
-// print the name in the 
+// print the a word in single letter in new line 
+const userName="Uma Mina";
+const strlen= userName.length;
+console.log(strlen);
+
+for(let i=0;i<strlen;i++){
+    console.log(userName[i]);
+}
