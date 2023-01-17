@@ -32,3 +32,15 @@ for (let i=0; i<instring.length;i++){
         console.log(`${instring[i]} is not a vowel`);
     }
 }
+
+// 4. Identify all the even numbers from the given range of numbers 
+let rem;
+for(let i=1; i<=100;i++){
+    rem=i%2;
+    if(rem===0){
+        console.log(`${i} is even number from the given range`);
+    }
+}
+
+ 
+
