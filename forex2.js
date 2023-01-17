@@ -1,4 +1,4 @@
-//print the number of characters in the given string 
+//1. print the number of characters in the given string 
 
 const userName= "UMA MINA";
 
@@ -9,5 +9,26 @@ for(let i=0;i<userName.length; i++){
 console.log( "number of characters in string is "+  count);
 
 
-// print the number even and odd in a given range of number
+//2.  print the number even and odd in a given range of number(1-100)
+let reminder;
+for (let i=0;i<=100;i++){
+    reminder=i%2;
+    if(reminder===0){
+        console.log(`${i} is even number`);
+    }else{
+        console.log(`${i} is odd number`);
+    }
+}
 
+
+//3. print the vowels in the given string 
+const instring=" hello myself is uma mina ";
+const vowels= "aeiou";
+
+for (let i=0; i<instring.length;i++){
+    if(vowels.includes(instring[i])){
+        console.log(`${instring[i]} is a vowel`);
+    }else{
+        console.log(`${instring[i]} is not a vowel`);
+    }
+}
