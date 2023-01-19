@@ -11,13 +11,11 @@
 
 
 // printing the greating message using the function 
-function greatingmessage(){
+function greetmessage(){
     console.log("hello coders... keeping going u all are doing good ");
 }
-const num= 5;
-if(num>=5){
-    greatingmessage();
-}else
-console.log("hello ");
 
+
+
+greetmessage();
 
