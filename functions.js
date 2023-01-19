@@ -15,7 +15,10 @@ function greetmessage(){
     console.log("hello coders... keeping going u all are doing good ");
 }
 
-
+const num=5;
+if(num ===5){
+    greetmessage();
+}
 
 greetmessage();
 
