@@ -8,4 +8,4 @@ function greet(name, city){                      // here name is called as an pa
 greet("John","Jaipur");     // here john is called as an argument(or the value of the parameter)
 greet("Priya","Bihar");
 greet("Kivi","Delhi");
-greet("Uma")                     // at palce of city the output given is undefiend
+greet("Uma")                     // at place of city the output given is undefiend

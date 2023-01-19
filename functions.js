@@ -11,7 +11,7 @@
 
 
 // printing the greating message using the function 
-function greetmessage(){
+function greetmessage(){                                                             // this will allocate memory to this fucntion that whenever the function calls this piece of code need to be executed
     console.log("hello coders... keeping going u all are doing good ");
 }
 
