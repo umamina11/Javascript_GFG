@@ -32,3 +32,6 @@ function calculateSum(min,max){
 }
 }
 calculateSum(1,10);
+
+
+
