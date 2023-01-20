@@ -22,3 +22,13 @@ if(num ===5){
 
 greetmessage();
 
+// write a function which can print the sum of the all the umber whihc are there in foor loop
+
+function calculateSum(min,max){
+    for(let i=1; i<=min; i++){
+        for(let j=1; j<=max; j++){
+            console.log(`Sum ${i+j}`)
+        }
+}
+}
+calculateSum(1,10);
