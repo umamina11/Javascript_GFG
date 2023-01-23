@@ -1,7 +1,9 @@
 // write a funtion to calculate the sum of two diffrent number 
 
 function calculateSum(x, y){
-    return x+y;
+    return x+y;                     ///return basically means the end of the function after that the fucntion will not perfrom any task 
+                                    // it indicates the ending og the function 
+                                    
 }
 
 
