@@ -24,3 +24,21 @@ for (let char of text){
    
 }
 console.log(count);
+
+
+
+/// print characters at index values 6,4,2,7,0
+
+console.log(message[6]);
+console.log(message[4]);
+console.log(message[2]);
+console.log(message[7]);
+console.log(message[0]);
+
+
+
+// using for loop
+
+for(let i=0; i<message.length-1; i++){
+    console.log(message[i]);
+}
