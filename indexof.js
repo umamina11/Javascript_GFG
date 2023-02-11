@@ -13,3 +13,6 @@ console.log(text.indexOf("u", 12));
 // it will give -1 if the given character is not present in the given string 
 console.log(text.indexOf("z"));
 console.log(text.indexOf("q"));
+
+
+
