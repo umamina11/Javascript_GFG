@@ -51,7 +51,7 @@ if (vowel.includes(char)){
 }
 
 }
-if(flag=== true){
+if(flag=== true){                     // or we can use (flag)
     console.log("string has vowels");
 
 }else{
