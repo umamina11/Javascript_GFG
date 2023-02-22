@@ -20,4 +20,7 @@ let arr3=[...arr1];
 console.log("array 3 " +arr3);
 arr3.push(11);
 console.log("updated arr1 "+ arr1);
-console.log("updated arr3 "+arr3);
+console.log("updated arr3 "+ arr3);
+
+
+//using for loop
