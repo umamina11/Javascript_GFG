@@ -30,6 +30,17 @@ let sum = 0;
 const n = 100
 
 for(let i=1;i<=n;i++){
-    sum +=1;
+    sum +=i;
 }
 console.log('sum: ', sum );
+
+//5
+<script>
+function foo(bar){
+    bar=bar ??55;
+    document.write(bar);
+    document.write("</br>");
+}
+foo();
+foo(22);
+</script>
