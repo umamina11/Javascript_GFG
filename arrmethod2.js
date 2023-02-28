@@ -20,3 +20,19 @@ console.log("removed item ",removeItem);
 let value =courses.slice(3,4);      // delete all elements from starting from index 3 to index 4 but not 4th  index value
 console.log("value ",value);
 console.log(courses);
+
+
+// slice in  string 
+let firstname="umaminaa";
+
+let firstUperCaseChar=firstname[0].toUpperCase();
+let captialisename= firstUperCaseChar+firstname.slice(1);
+
+console.log("captialise Name ",captialisename);
+
+
+//SPLICE
+
+courses.splice(4,2);
+
+console.log("updated courses after splice ",courses)
