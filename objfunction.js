@@ -3,10 +3,10 @@
 // using fucntion as property
 const obj={
     name: "Uma Mina",
-    message: function(){
+    message: function(){                        // by creating a key 
         console.log("hello world.");    // assiging an anonomus function
     },
-Bye(){
+Bye(){                                         // without creating key 
     console.log("time to say byeee");
 }
 }
