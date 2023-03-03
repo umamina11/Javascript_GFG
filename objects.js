@@ -1,6 +1,8 @@
 //Objects
 
 //create an object
+// object literals
+
 
 const obj={};       //object literal
 
