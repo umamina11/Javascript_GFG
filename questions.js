@@ -41,3 +41,18 @@ console.log(str3);
 const str11='GeeksforGeeks';
 const str12=str11.slice(2,5);
 console.log(str12);
+
+//8 
+//let text1="GeeksforGeeks"have the best"Geeks";
+//console.log(text1.length);
+
+//9
+"geeks".split("").join(",");
+
+// 10
+let text2="Geeks"
+for(let i=0;i<text2.length;i++){
+    if (text2[i]=="e"){
+        console.log(i)
+    }
+}

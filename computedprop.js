@@ -3,7 +3,8 @@
 
 
 
-const readlineSync=require("readline-sync")
+const readlineSync=require("readline-sync");
+const key=readlineSync.question("Ask me a question(age/name/city/state).");
 
 const obj={
 name: "uma mina",
@@ -14,3 +15,5 @@ obj.city="Jaipur";
 obj.state="Rajasthan";
 
 console.log(obj);
+
+console.log(obj[key]);
