@@ -29,8 +29,10 @@ function getCopiedObjcet(source){
  for(let key of keys){
  //   targetObj[key]=source[key]
 if(typeof source[key]==="object"){
+    targetObj[key]=getCopiedObjcet(source[key]);
     
-}
+}else
+targetObj[key]=source[key];
  }
  return targetObj;
 }
