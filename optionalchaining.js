@@ -46,4 +46,6 @@ user.getDisplayeMessage();
 // what if fucntion is not there 
 //user.getDisplayAddress();    // give u an error that funtion is not present 
 // to deal this error
-user.getDisplayAddress?.(); // this will give u undefined 
+user.getDisplayAddress?.(); // this will not give u any output 
+
+console.log(user.getDisplayAddress?.()); // this will give u undefined 
